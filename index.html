@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="./user.png" />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div
+      id="main"
+      class="relative h-screen border-b-2 lg:grid lg:grid-cols-2 lg:gap-4"
+    >
+      <div id="left" class="left lg:my-0 my-20">
+        <div class="img-border border-r-2">
+          <img
+            id="img"
+            src=""
+            alt=""
+            class="img m-auto w-64 main-image rounded-lg"
+          />
+        </div>
+      </div>
+
+      <div id="contents" class="m-auto px-4 lg:my-20 child">
+        <div id="name" class="text-center lg:text-left text-6xl"></div>
+        <div id="role" class="text-center lg:text-left text-3xl"></div>
+        <div id="connects" class="text-center lg:text-left text-3xl my-4"></div>
+        <a
+          target="_top"
+          id="mail"
+          class="block text-center lg:text-left text-sm my-2 text-pink-500"
+        ></a>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
