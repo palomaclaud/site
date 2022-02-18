@@ -10,14 +10,14 @@ const main = {
       link: "https://linkedin.com/in/palomaclaud",
     },
     {
-      name: "Github",
-      iconName: "logo-github",
-      link: "https://github.com/palomaclaud",
-    },
-    {
       name: "Gitlab",
       iconName: "logo-gitlab",
       link: "https://gitlab.com/palomaclaud",
+    },
+    {
+      name: "Github",
+      iconName: "logo-github",
+      link: "https://github.com/palomaclaud",
     },
     {
       name: "Instagram",
